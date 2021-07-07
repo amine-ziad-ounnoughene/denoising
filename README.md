@@ -7,7 +7,7 @@ from kaggle.com https://www.kaggle.com/adityachandrasekhar/image-super-resolutio
 which contains RGB images of shape 256,256,3 
 with noise images as features and denoised one as label
 # model's architecture
-'''bash
+```bash
 Model: "model_1"
 _________________________________________________________________
 Layer (type)                 Output Shape              Param #   
@@ -49,4 +49,4 @@ conv2d_11 (Conv2D)           (None, 256, 256, 1)       2305
 Total params: 812,033
 Trainable params: 812,033
 Non-trainable params: 0
-'''
+```
